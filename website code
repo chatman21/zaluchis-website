@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZALUCHIS - Where Strategy Meets Success</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+</style>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#B8860B',
+secondary: '#1A1A1A'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+</head>
+<body class="bg-white">
+<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+<div class="container mx-auto px-6">
+<div class="flex items-center justify-between h-20">
+<a href="#" class="text-2xl font-['Abril_Fatface'] text-secondary tracking-wider">zaluchis</a>
+<div class="hidden md:flex space-x-8">
+<a href="#services" class="text-gray-600 hover:text-primary transition-colors">Services</a>
+<a href="#about" class="text-gray-600 hover:text-primary transition-colors">About</a>
+<a href="#work" class="text-gray-600 hover:text-primary transition-colors">Work</a>
+<a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+</div>
+<button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap cursor-pointer">
+Get Started
+</button>
+</div>
+</div>
+</nav>
+<section class="pt-32 pb-20 relative overflow-hidden" style="background-image: url('https://public.readdy.ai/ai/img_res/cbfe4ea5e2615ee80a05637517d7bbee.jpg'); background-size: cover;">
+<div class="absolute inset-0 bg-gradient-to-r from-secondary/95 to-secondary/80"></div>
+<div class="container mx-auto px-6 relative">
+<div class="grid md:grid-cols-2 gap-12 items-center min-h-[600px]">
+<div>
+<h1 class="text-5xl md:text-6xl font-bold text-white mb-6 font-['Playfair_Display']">
+Where Strategy<br/>
+<span class="text-primary">Meets Success</span>
+</h1>
+<p class="text-gray-300 text-lg mb-8 leading-relaxed">
+We elevate brands through bold strategies, data-driven insights, and creative excellence. Transform your vision into a powerful marketing presence that stands out.
+</p>
+<div class="flex gap-4">
+<a href="mailto:zaluchismarketingagency.gemail.com" class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap text-lg cursor-pointer inline-block">
+Partner With Us
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white" id="about">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl font-bold text-secondary mb-6 font-['Playfair_Display']">
+Transforming Visions into Digital Excellence
+</h2>
+<p class="text-gray-600 mb-6 leading-relaxed">
+At ZALUCHIS, we understand that success in today's digital landscape requires more than just creativity – it demands strategic thinking, technical expertise, and a deep understanding of your business goals.
+</p>
+<p class="text-gray-600 mb-8 leading-relaxed">
+Our team of experts combines years of industry experience with cutting-edge technologies to deliver solutions that drive real results and lasting impact.
+</p>
+<div class="grid grid-cols-2 gap-6">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-award-line text-primary text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-secondary">98%</h4>
+<p class="text-sm text-gray-500">Client Satisfaction</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+<i class="ri-customer-service-line text-primary text-2xl"></i>
+</div>
+<div>
+<h4 class="font-semibold text-secondary">24/7</h4>
+<p class="text-sm text-gray-500">Expert Support</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<img src="https://public.readdy.ai/ai/img_res/2e2b8c57592fa5ec13da3ec292ca59c0.jpg" alt="About ZALUCHIS" class="rounded-lg shadow-xl">
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-gray-50" id="services">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-secondary mb-4 font-['Playfair_Display']">Our Services</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">
+Comprehensive digital solutions tailored to your unique needs. We combine creativity with technical expertise to deliver exceptional results.
+</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<i class="ri-palette-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-secondary mb-4">Brand Strategy</h3>
+<p class="text-gray-600 mb-6">
+Develop a compelling brand identity that resonates with your target audience and sets you apart from competitors.
+</p>
+<a href="#" class="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
+Learn More
+<i class="ri-arrow-right-line"></i>
+</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<i class="ri-line-chart-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-secondary mb-4">Digital Marketing</h3>
+<p class="text-gray-600 mb-6">
+Data-driven marketing strategies that increase visibility, engage customers, and drive conversions.
+</p>
+<a href="#" class="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
+Learn More
+<i class="ri-arrow-right-line"></i>
+</a>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+<i class="ri-code-box-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-secondary mb-4">Web Development</h3>
+<p class="text-gray-600 mb-6">
+Custom websites and applications built with cutting-edge technology and optimized for performance.
+</p>
+<a href="#" class="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
+Learn More
+<i class="ri-arrow-right-line"></i>
+</a>
+</div>
+</div>
+<div class="text-center mt-12">
+<p class="text-gray-600">For more services, please feel free to <a href="#contact" class="text-primary hover:underline">ask us</a>.</p>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white" id="work">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-secondary mb-4 font-['Playfair_Display']">Our Work</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">
+Explore our portfolio of successful projects and see how we've helped businesses achieve their goals.
+</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<img src="https://public.readdy.ai/ai/img_res/f446565c205d98b620f341e3b41e31e1.jpg" alt="Project 1" class="w-full h-full object-cover transition-transform group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<div>
+<h3 class="text-white font-semibold text-xl mb-2">E-Commerce Platform</h3>
+<p class="text-gray-200">Custom shopping experience with advanced features</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<img src="https://public.readdy.ai/ai/img_res/8976879401df1fde7293a8fb903e5db5.jpg" alt="Project 2" class="w-full h-full object-cover transition-transform group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<div>
+<h3 class="text-white font-semibold text-xl mb-2">Mobile App Design</h3>
+<p class="text-gray-200">Intuitive user interface for seamless interaction</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<img src="https://public.readdy.ai/ai/img_res/39bb18d2cfe365053617184b2eb532c9.jpg" alt="Project 3" class="w-full h-full object-cover transition-transform group-hover:scale-110">
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<div>
+<h3 class="text-white font-semibold text-xl mb-2">Brand Identity</h3>
+<p class="text-gray-200">Complete brand transformation and guidelines</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-secondary" id="contact">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-4xl font-bold text-white mb-6 font-['Playfair_Display']">
+Ready to Transform Your Brand?
+</h2>
+<p class="text-gray-300 mb-8 leading-relaxed">
+Let's discuss how we can help you achieve your business goals. Schedule a consultation with our experts today.
+</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<i class="ri-mail-line text-primary text-xl"></i>
+</div>
+<div>
+<h4 class="text-white font-medium">Email Us</h4>
+<p class="text-gray-400">zaluchismarketingagency.gemail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+<i class="ri-phone-line text-primary text-xl"></i>
+</div>
+<div>
+<h4 class="text-white font-medium">Call Us</h4>
+<p class="text-gray-400">+260 968 246 488</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-lg">
+<form class="space-y-6">
+<div>
+<label class="block text-gray-700 mb-2">Name</label>
+<input type="text" name="name" class="w-full px-4 py-3 rounded border-gray-200 focus:border-primary focus:ring-primary" placeholder="Your name" required>
+</div>
+<div>
+<label class="block text-gray-700 mb-2">Email</label>
+<input type="email" name="email" class="w-full px-4 py-3 rounded border-gray-200 focus:border-primary focus:ring-primary" placeholder="your@email.com" required>
+</div>
+<div>
+<label class="block text-gray-700 mb-2">Message</label>
+<textarea name="message" class="w-full px-4 py-3 rounded border-gray-200 focus:border-primary focus:ring-primary" rows="4" placeholder="How can we help?" required></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 !rounded-button hover:bg-primary/90 transition-colors cursor-pointer">
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-white border-t border-gray-100 py-12">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<a href="#" class="text-2xl font-['Abril_Fatface'] text-secondary mb-4 block tracking-wider">zaluchis</a>
+<p class="text-gray-600">
+Transforming concepts into campaigns.
+</p>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Services</h4>
+<ul class="space-y-2 text-gray-600">
+<li><a href="#" class="hover:text-primary transition-colors">Brand Strategy</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Digital Marketing</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Web Development</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Content Creation</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Company</h4>
+<ul class="space-y-2 text-gray-600">
+<li><a href="#" class="hover:text-primary transition-colors">About Us</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Careers</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Blog</a></li>
+<li><a href="#" class="hover:text-primary transition-colors">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold text-secondary mb-4">Connect</h4>
+<div class="flex flex-col space-y-4">
+<div class="flex items-center gap-3">
+<a href="#" class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors">
+<i class="ri-facebook-fill text-gray-600 hover:text-primary"></i>
+</a>
+<span class="text-gray-600">@zaluchis marketing agency</span>
+</div>
+<div class="flex items-center gap-3">
+<a href="#" class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors">
+<i class="ri-instagram-line text-gray-600 hover:text-primary"></i>
+</a>
+<span class="text-gray-600">@zaluchismarketingagency</span>
+</div>
+<div class="flex items-center gap-3">
+<a href="#" class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors">
+<i class="ri-tiktok-fill text-gray-600 hover:text-primary"></i>
+</a>
+<span class="text-gray-600">@zaluchis_marketingagency</span>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-100 mt-12 pt-8 text-center text-gray-600">
+<p>&copy; 2025 ZALUCHIS. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+const form = document.querySelector('form');
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+const formData = new FormData(form);
+const data = Object.fromEntries(formData);
+const mailtoLink = `mailto:zaluchismarketingagency.gemail.com?subject=New Contact Form Submission&body=Name: ${data.name}%0D%0AEmail: ${data.email}%0D%0AMessage: ${data.message}`;
+window.location.href = mailtoLink;
+const notification = document.createElement('div');
+notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-6 py-3 rounded shadow-lg transform transition-transform duration-300 translate-y-0';
+notification.textContent = 'Opening your email client...';
+document.body.appendChild(notification);
+setTimeout(() => {
+notification.style.transform = 'translateY(150%)';
+setTimeout(() => notification.remove(), 300);
+}, 3000);
+form.reset();
+});
+</script>
+</body>
+</html>
